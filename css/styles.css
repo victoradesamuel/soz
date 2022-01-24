@@ -144,6 +144,30 @@ h4, .h4 {
     font-size: 1.5rem;
   }
 }
+button {
+  background-color: #0f0ceb;
+  border: none;
+  color: white;
+  box-shadow: 0 5px 10px rgb(43 42 42 / 40%);
+  cursor: pointer;
+  border-radius: 1rem;
+  margin-top: -10px;
+  padding: 0.8rem 2rem;
+  transition: all 1s ease-out;
+  margin-right: 1rem;
+}
+button:first-child {
+  background-color: #0f0ceb;
+  border: none;
+  color: white;
+  box-shadow: 0 5px 10px rgb(43 42 42 / 40%);
+  cursor: pointer;
+  border-radius: 2rem;
+  margin-top: -10px;
+  padding: 0.8rem 3rem;
+  transition: all 1s ease-out;
+  margin-right: 1rem;
+}
 
 h5, .h5 {
   font-size: 1.25rem;
@@ -171,6 +195,10 @@ address {
   margin-bottom: 1rem;
   font-style: normal;
   line-height: inherit;
+}
+
+.user-email{
+
 }
 
 ol,
@@ -236,11 +264,16 @@ sup {
 }
 
 a {
-  color: #2808db;
+  background-color: #0211db;
+  color: white;
   text-decoration: underline;
 }
 a:hover {
-  color: #974a2d;
+  color: skyblue;
+}
+a.user-email{
+  background-color: white;
+  color: #0211db;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
